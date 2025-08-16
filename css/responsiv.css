@@ -1,0 +1,258 @@
+@media only screen and (max-width:1200px) {
+    .conteiner {
+        max-width: 960px !important;
+    }
+
+    .header-bottom {
+        margin-top: 2rem;
+    }
+
+    .header-title {
+        display: none;
+    }
+
+    .sall-off-boxs {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .mobile-app {
+        height: 850px;
+        overflow: hidden;
+    }
+
+    .holder-mobile-pic {
+        left: 200px;
+    }
+
+    .info-mobile-sec {
+        left: 180px;
+
+    }
+    .title-comment{
+        font-size: 34px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .conteiner {
+        max-width: 860px !important;
+        padding: 0 1rem;
+    }
+
+    nav {
+        grid-template-columns: repeat(3, auto);
+        align-items: center;
+    }
+    .title-comment{
+        font-size: 28px;
+    }
+    .img__salas{
+        width: 170px;
+        height: 170px;
+    }
+    .nav-links {
+        display: none;
+    }
+
+    .nav-burguricon {
+        display: block;
+        text-align: center;
+    }
+
+    .header-bottom {
+        grid-template-columns: repeat(2, auto);
+        margin-top: -1rem;
+    }
+
+    .header-title {
+        display: none;
+    }
+
+    .header-bottom-title {
+        font-size: 32px;
+        max-width: 229px;
+        line-height: 3.3rem;
+        text-shadow: none;
+        margin-top: 10rem;
+    }
+
+    .header-bottom-info {
+        text-shadow: none;
+        width: 229px;
+        margin-top: none;
+        margin-top: -2rem;
+        font-size: 15px;
+    }
+
+    .menu-section-title {
+        margin-top: 4rem;
+    }
+
+    .mobile-app {
+        height: 850px;
+        overflow: hidden;
+    }
+
+    .holder-mobile-pic {
+        left: 100px;
+    }
+
+    .info-mobile-sec {
+        left: 100px;
+        max-width: 450px;
+
+    }
+    .oprator{
+        flex-wrap: wrap;
+    }
+    .icons-section{
+        order: 3;
+        margin-top: 2rem ;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .conteiner {
+        max-width: 680% !important;
+    }
+
+    .header-bottom-right img {
+        width: 100%;
+        padding: 10px;
+    }
+    .img__salas{
+        top: 1%;
+    }
+    .title-comment{
+        font-size: 20px;
+        margin-top: 8.5rem;
+    }
+    .untitle-comment{
+        font-size: 12px;
+    }
+    .nav {
+        width: 100%;
+    }
+
+    .header-bottom {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .header-buttom-left {
+        margin: 0 auto;
+        margin-top: -5rem;
+        text-align: center;
+    }
+
+    .header-bottom-title {
+        max-width: 400px;
+    }
+
+    .header-bottom-info {
+        max-width: 600px;
+        margin-left: 5rem;
+    }
+
+    .order {
+        margin-left: 4rem;
+    }
+
+    .price {
+        margin: 0;
+        margin-left: -3rem;
+        margin-bottom: -2rem;
+    }
+
+    .menu-section-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    .info-info-mob{
+        max-width: 350px;
+    }
+    .info-mobile-sec h2{
+        font-size: 30px;
+        max-width: 300px;
+    }
+    .mobile-app{
+        height: 1000px;
+    }
+    .title-info-mob{
+        max-width: 230px;
+        display: none;
+    }
+    .info-mobile-sec{
+        margin-top: 10rem;
+    }
+    .useful-link{
+        max-width: 200px;
+    }
+    .timeline-section{
+        max-width: 200px;
+    }
+    .icons-section{
+        align-items: center;
+    }
+    
+}
+@media only screen and (max-width:576px) {
+    .conteiner {
+        width: 478px;
+    }
+
+    nav {
+        width: 100%;
+        margin: 1rem auto;
+    }
+    .info-mobile-sec{
+        margin-top: 12rem;
+    }
+    .info-info-mob{
+        max-width: 250px;
+    }
+    .file-sec{
+        flex-direction: column;
+    }
+    .mobile-app{
+        height: 1100px;
+    }
+    .comment-input{
+        width: 377px;
+        position: relative;
+    }
+    .comment-input button{
+        width: 148px;
+        height: 100%;
+        position: absolute;
+        right: 0;
+    }
+    .footer{
+        width: 100% !important;
+    }
+    .info-info-mob{
+        max-width: 170px;
+    }
+}
+@media only screen and (max-width:480px){
+    .footer{
+        width: 100% ;
+        margin: 0;
+        margin-top: 2rem;
+        padding: 0;
+        background-color: #fff;
+    }
+    .oprator{
+        width: 100% !important;
+        align-items: center;
+        justify-content: center;
+    }
+    .icons-section{
+        padding-left: 2rem;
+        max-width: 100%;
+    }
+}
